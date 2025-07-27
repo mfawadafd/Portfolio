@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "homepage": "https://mfawadafd.github.io/my-portfolio/",
-
+  "homepage": "https://mfawadafd.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

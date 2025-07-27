@@ -29,9 +29,12 @@ const Home = () => {
           My passion lies in crafting seamless user experiences and writing clean, efficient code.<br />
           Let's build something amazing together!
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-6">
-  <a href="mailto:mfawadafd@gmail.com?subject=Let's Connect&body=Hi Fawad, I saw your portfolio and wanted to connect.">
-    <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-2xl shadow-lg transition duration-300 ease-in-out">
+       <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full justify-center items-center sm:items-start">
+  <a
+    href="mailto:mfawadafd@gmail.com?subject=Let's Connect&body=Hi Fawad, I saw your portfolio and wanted to connect."
+    className="w-full sm:w-auto"
+  >
+    <button className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-2xl shadow-lg transition duration-300 ease-in-out">
       Let's Connect
     </button>
   </a>
@@ -40,12 +43,14 @@ const Home = () => {
     href="https://wa.me/+923169753567?text=Hi%20Fawad,%20I%20just%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!"
     target="_blank"
     rel="noopener noreferrer"
+    className="w-full sm:w-auto"
   >
-    <button className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-2xl shadow-lg transition duration-300 ease-in-out">
+    <button className="w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-2xl shadow-lg transition duration-300 ease-in-out">
       Chat on WhatsApp
     </button>
   </a>
 </div>
+
 
       </div>
 
