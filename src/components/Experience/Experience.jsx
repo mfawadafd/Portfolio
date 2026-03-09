@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaCss3, FaHtml5, FaJs, FaFigma, FaReact } from 'react-icons/fa';
 import { SiRedis } from 'react-icons/si';
-import { FaGoogle } from 'react-icons/fa';
+// import { FaGoogle } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
-import { RiNetflixFill } from '@remixicon/react';
-import { FaAmazon } from 'react-icons/fa';
+// import { RiNetflixFill } from '@remixicon/react';
+// import { FaAmazon } from 'react-icons/fa';
 
 const Experience = () => {
     return (
