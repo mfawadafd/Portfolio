@@ -11,13 +11,19 @@ const Footer = () => {
     </div>
     <ul className='text-sm md:text-xl'>
         <li className='flex gap-1 items-center'><MdOutlineEmail size={20}/>
-        mfawadafd65@gmail.com
+       <a href="mailto:mfawadafd65@gmail.com" target="_blank" rel="noopener noreferrer">
+          mfawadafd65@gmail.com
+        </a>
         </li>
         <li className='flex gap-1 items-center'><FaLinkedin size={20}/>
-        https://www.linkedin.com/in/muhammad-fawad-839565232/
+        <a href="https://www.linkedin.com/in/muhammad-fawad-839565232/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
         </li>
         <li className='flex gap-1 items-center'><FaGithub size={20}/>
-        https://github.com/mfawadafd
+        <a href="https://github.com/mfawadafd" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
         </li>
     </ul>
     </div>
