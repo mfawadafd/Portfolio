@@ -10,8 +10,8 @@ const Experience = () => {
     return (
         <div id='Experience' className='p-10 md:p-24'>
             <h1 className='text-2 md:text-4xl font-bold text-white'>Experience</h1>
-            <div className='flex flex-warp items-center justify-around'>
-                <div className='flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10'>
+            <div className='flex flex-col md:flex-row items-center justify-around'>
+                <div className='flex flex-wrap w-full md:w-2/5 gap-8 md:p-12 py-10 justify-center'>
                     <span className='p-3 bg-zinc-950 flex item-center rounded-2xl'>
                         <FaHtml5 size={50} className='text-orange-500' />
                     </span>
@@ -34,7 +34,7 @@ const Experience = () => {
                         <SiRedis size={50} color='#FF2E00' />
                     </span>
                 </div>
-                <div>
+                <div className='w-full md:w-2/5'>
                     <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
                         <div className="text-blue-500 font-bold text-4xl">
                             TT

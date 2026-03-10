@@ -13,7 +13,7 @@ const About = () => {
             <ul>
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className= "mt-1 text-blue-500"/>
-                    <span className='w-96 md:w-80 text-sm md:text-md'>
+                    <span className='w-full md:w-80 text-sm md:text-md'>
                     <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend Developer</h1>
                     <p className='text-sm md:text-md mt-2 leading-tight'>
                     I am a passionate frontend developer with a keen eye for design and user experience. I love creating interactive and responsive web applications that provide a seamless user experience. My expertise lies in HTML, CSS, JavaScript, and React.js, and I am always eager to learn new technologies and improve my skills.
@@ -22,7 +22,7 @@ const About = () => {
                 </div>
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className= "mt-1 text-blue-500"/>
-                    <span className='w-96 md:w-80 text-sm md:text-md'>
+                    <span className='w-full md:w-80 text-sm md:text-md'>
                     <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend Developer</h1>
                     <p className='text-sm md:text-md mt-2 leading-tight'>
                     As a backend developer, I specialize in building robust and scalable server-side applications. I have experience with Node.js, Express.js, and various databases like MongoDB and MySQL. I enjoy working on APIs and ensuring that the data flow between the frontend and backend is efficient and secure.
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
                 <div className='flex gap-3 py-4'>
                     <IoArrowForward size={30} className= "mt-1 text-blue-500"/>
-                    <span className='w-96 md:w-80 text-sm md:text-md'>
+                    <span className='w-full md:w-80 text-sm md:text-md'>
                     <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Database Developer</h1>
                     <p className='text-sm md:text-md mt-2 leading-tight'>
                     I have a strong understanding of database design and management. I am proficient in SQL and NoSQL databases, and I enjoy optimizing queries and ensuring data integrity. My goal is to create efficient database structures that support the needs of the applications I work on.
