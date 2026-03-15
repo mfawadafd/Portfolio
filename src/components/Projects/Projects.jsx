@@ -4,6 +4,7 @@ import Image from '../../assets/photo-C8q0KQHG.webp';
 import simon from '../../assets/SimonGame.png';
 import Netflix from '../../assets/Netflix.png';
 import ToDo from '../../assets/Todo.png'
+import SCD from '../../assets/SCD.png';
 
 const Projects = () => {
   return (
@@ -14,22 +15,22 @@ const Projects = () => {
           title='Simon Game'
           main='A memory game built with HTML, CSS, and JS.'
           image={simon}
-          demoLink='https://mfawadafd.github.io/Simon_Game/'
+          demoLink='https://simongame-henna.vercel.app/'
           sourceLink='https://github.com/mfawadafd/Simon_Game'
         />
         <ProjectCard
           title='Netflix Clone'
           main='A front-end clone of Neffleix built with HTML and CSS.'
           image={Netflix}
-          demoLink='https://mfawadafd.github.io/movie-stream-u/'
+          demoLink='https://movie-stream-u.vercel.app/'
           sourceLink='https://github.com/mfawadafd/movie-stream-u'
         />
         <ProjectCard
-          title='ToDo List (React)'
-          main='A simple and elegant to-do list built using React.'
-          image={ToDo}
-          demoLink='https://mfawadafd.github.io/Todo_App/'
-          sourceLink='https://github.com/mfawadafd/Todo_App'
+          title='SCM Dashboard'
+          main='A simple and elegant SCD with real-time data visualization.'
+          image={SCD}
+          demoLink='https://fyp-virid-ten.vercel.app/'
+          sourceLink='https://github.com/mfawadafd/FYP/tree/master/Frontend'
         />
       </div>
     </div>
