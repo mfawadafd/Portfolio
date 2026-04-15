@@ -5,6 +5,8 @@ import simon from '../../assets/SimonGame.png';
 import Netflix from '../../assets/Netflix.png';
 import ToDo from '../../assets/Todo.png'
 import SCD from '../../assets/SCD.png';
+import image from '../../assets/image.png';
+
 
 const Projects = () => {
   return (
@@ -31,6 +33,13 @@ const Projects = () => {
           image={SCD}
           demoLink='https://fyp-virid-ten.vercel.app/'
           sourceLink='https://github.com/mfawadafd/FYP/tree/master/Frontend'
+        />
+        <ProjectCard
+          title='FUTURE SKILLS'
+          main='A modern web application built with React and Node.js.'
+          image={image}
+          demoLink='https://mini-react-project-rho.vercel.app/'
+          sourceLink='https://github.com/mfawadafd/Mini_React_Project'
         />
       </div>
     </div>
