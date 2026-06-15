@@ -7,7 +7,7 @@ import ToDo from '../../assets/Todo.png'
 import SCD from '../../assets/SCD.png';
 import image from '../../assets/image.png';
 import Sticky from '../../assets/StickyNotesApp.png'
-
+import ECOM from '../../assets/ECOM.png'
 
 const Projects = () => {
   return (
@@ -44,10 +44,17 @@ const Projects = () => {
         />
         <ProjectCard
           title='FUTURE SKILLS'
-          main='A modern web application built with React and Node.js.'
+          main='A modern web application built with React .'
           image={image}
           demoLink='https://mini-react-project-rho.vercel.app/'
           sourceLink='https://github.com/mfawadafd/Mini_React_Project'
+        />
+        <ProjectCard
+          title='E-Commerce App'
+          main='A modern web application built with React.'
+          image={ECOM}
+          demoLink='https://ecommerce-app-zeta-smoky.vercel.app/'
+          sourceLink='https://github.com/mfawadafd/Ecommerce-app'
         />
       </div>
     </div>
