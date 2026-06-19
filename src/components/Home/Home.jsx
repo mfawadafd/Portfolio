@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
-    <div id='Home' className='text-white flex flex-col md:flex-row justify-between items-center p-10 md:p-20'>
+    <div id='Home' className='text-white flex flex-col md:flex-row justify-between items-center p-10 md:p-20 mt-4'>
       
       {/* Left Text Section */}
       <div className='md:w-2/4 text-center md:text-left'>

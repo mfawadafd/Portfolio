@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='flex flex-wrap justify-between md:items-center bg-black text-white px-10 pt-6 md:px-20 fixed top-0 left-0 w-full z-50'>
+    <nav className='flex flex-wrap justify-between md:items-center bg-black text-white px-10 py-4 md:px-20 fixed top-0 left-0 w-full z-50'>
       <a href="#Home">
         <span className='text-xl font-bold tracking-wide'>Portfolio</span>
       </a>
